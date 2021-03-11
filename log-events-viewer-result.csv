@@ -1,0 +1,14 @@
+timestamp,message
+1615254561690,"START RequestId: 3e53af63-e7fd-44f5-a80a-13683a2d39d8 Version: $LATEST
+"
+1615254566089,"2021-03-09T01:49:26.088Z	3e53af63-e7fd-44f5-a80a-13683a2d39d8	INFO	RECEIVED event:  {  ""key1"": ""value1"",  ""key2"": ""value2"",  ""key3"": ""value3""}
+"
+1615254566108,"2021-03-09T01:49:26.108Z	3e53af63-e7fd-44f5-a80a-13683a2d39d8	ERROR	Unhandled Promise Rejection	{""errorType"":""Runtime.UnhandledPromiseRejection"",""errorMessage"":""TypeError: Cannot read property 'userAttributes' of undefined"",""reason"":{""errorType"":""TypeError"",""errorMessage"":""Cannot read property 'userAttributes' of undefined"",""stack"":[""TypeError: Cannot read property 'userAttributes' of undefined"",""    at exports.handler (/var/task/boilerplate-create-challenge.js:26:37)"",""    at Runtime.exports.handler (/var/task/index.js:11:5)"",""    at Runtime.handleOnce (/var/runtime/Runtime.js:66:25)""]},""promise"":{},""stack"":[""Runtime.UnhandledPromiseRejection: TypeError: Cannot read property 'userAttributes' of undefined"",""    at process.on (/var/runtime/index.js:37:15)"",""    at process.emit (events.js:198:13)"",""    at process.EventEmitter.emit (domain.js:448:20)"",""    at emitPromiseRejectionWarnings (internal/process/promises.js:140:18)"",""    at process._tickCallback (internal/process/next_tick.js:69:34)""]}
+"
+1615254566167,"END RequestId: 3e53af63-e7fd-44f5-a80a-13683a2d39d8
+"
+1615254566168,"REPORT RequestId: 3e53af63-e7fd-44f5-a80a-13683a2d39d8	Duration: 4477.54 ms	Billed Duration: 4478 ms	Memory Size: 128 MB	Max Memory Used: 86 MB	Init Duration: 180.88 ms	
+"
+1615254566168,"Unknown application error occurred
+
+"

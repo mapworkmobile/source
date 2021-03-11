@@ -1,0 +1,15 @@
+{
+  "trigger": true,
+  "modules": [
+    "boilerplate-verify"
+  ],
+  "parentResource": "mapworkapp074794d7074794d7",
+  "functionName": "mapworkapp074794d7074794d7VerifyAuthChallengeResponse",
+  "resourceName": "mapworkapp074794d7074794d7VerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/VerifyAuthChallengeResponse",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "roleName": "mapworkapp074794d7074794d7VerifyAuthChallengeResponse",
+  "skipEdit": true
+}
